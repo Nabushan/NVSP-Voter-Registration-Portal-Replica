@@ -1,0 +1,129 @@
+html{
+    height: 100%;
+}
+
+nav{
+    background-color: black;
+    text-align: center;
+}
+
+.head_nav{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2.5fr 1fr;
+    column-gap: 1em;
+}
+
+.nav_img{
+    width: 180px;
+    height: 120px;
+    padding: 10px;
+}
+
+.nav_font{
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+}
+
+.nav_font1{
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+}
+
+.top_btn{
+    background-color: gray;
+    color: white;
+}
+
+.top_btn:hover{
+    background-color:turquoise;
+    cursor: pointer;
+}
+
+select{
+    background-color: gray;
+    color: white;
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+}
+
+.input_button{
+    background-color: gray;
+    color: white;
+}
+
+.container{
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    /*background-color:blue;*/
+}
+
+.Two_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+button{
+    width: 50px;
+    padding: 5px;
+    margin-left: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container_margin{
+    width: 93.3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    /*background-color:blue;*/
+    border: 4px solid gray;
+}
+
+.div_gray{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: gray;
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+.div_pink{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: hotpink;
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+.texts{
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.horizontal_line{
+    width: 96%;
+    background-color: gray;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.last_btn{
+    background-color: green;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.last_btn a{
+    text-decoration: none;
+    color: white;
+}

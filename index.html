@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVSP Portal</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="head_nav">
+                <div>
+                    <img class="nav_img" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="Image Of Flag."> 
+                </div>
+                <div style="padding-left: 20px;">
+                    <h1 class="nav_font">&nbsp; &nbsp; राष्ट्रीय मतदान<br> सेवा  डेमो पोर्टल</h1>
+                </div>
+                <div>
+                    <h1 class="nav_font">NATIONAL VOTERS' SERVICES  <br> &nbsp; &nbsp;    DEMO  PORTAL</h1>
+                </div>
+                <div>
+                    <img class="nav_img" src="https://elect.ky.gov/Homepage/register.png" alt="Register to vote image.">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="Two_div">
+            <div>
+                <button class="top_btn">A+</button>
+                <button class="top_btn">A-</button>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td style="padding-left: 250px;">Select Language : </td>
+                        <td>
+                            <select id="selector">
+                                <option value="Default">English</option>
+                                <option value="One">Tamil</option>
+                                <option value="Two">Hindi</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="container_margin">
+        <div class="div_gray">
+            <h1 style="padding: 10px">Type 6<br>[See rule 13(1) and 26]</h1>
+        </div>
+        <div class="div_pink">
+            <h1 style="padding: 10px">Application for inclusion of name in the electoral roll for the first time due to the transfer of voter or any other constituency from any one constituency</h1>
+        </div>
+
+        <div>
+            <p class="texts">In service</p>
+            <p class="texts">Electoral Registration Officer,</p>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px;">State : </td>
+                    <td>
+                        <select name="State" id="select_state">
+                            <option value="default">select</option>
+                        </select>
+                    </td>
+                    <td class="texts" style="padding-left: 50px;">District : </td>
+                    <td>
+                        <select name="District" id="select_district">
+                            <option value="default">select</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px;">Legislative Assembly/Parliment : </td>
+                    <td>
+                        <select name="Assembly/Parliment" id="select_Assembly/Parliment">
+                            <option value="default">select</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px;">constituency</td>
+                </tr>
+            </table>
+            <p class="texts">I request that my name be included in electoral rolls for all the aforesaid areas.</p>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        <input type="radio" id="first" name="select_me" value="First time voter.">
+                        <label for="first">First time voter.</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        <input type="radio" id="second" name="select_me" value="Due to transfer from other meeting areas."><label for="second">Due to transfer from other meeting areas.</label>
+                    </td>
+                </tr>
+            </table>
+            <p class="texts">Below are specifications in support of my claim to be included in the electoral rolls.
+            </p>
+        </div>
+        <div class="div_pink">
+            <h1 style="padding: 10px">Mandatory specifications</h1>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">(A) Name : </td>
+                    <td><input type="text" placeholder="(In English)"></td>
+                    <td><input type="text" placeholder="(In Regional)"></td>
+                    <td><button class="input_button" name="Keyboard_icon"><i class="fa fa-keyboard-o"></i></button></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">(B) Surname (if any) : </td>
+                    <td><input type="text" placeholder="(In English)"></td>
+                    <td><input type="text" placeholder="(In Regional)"></td>
+                    <td><button class="input_button" name="Keyboard_icon"><i class="fa fa-keyboard-o"></i></button></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">(C) Name of the applicant's relative : </td>
+                    <td><input type="text" placeholder="(In English)"></td>
+                    <td><input type="text" placeholder="(In Regional)"></td>
+                    <td><button class="input_button" name="Keyboard_icon"><i class="fa fa-keyboard-o"></i></button></td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">NickName of the applicant's relative : </td>
+                    <td><input type="text" placeholder="(In English)"></td>
+                    <td><input type="text" placeholder="(In Regional)"></td>
+                    <td><button class="input_button" name="Keyboard_icon"><i class="fa fa-keyboard-o"></i></button></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">(D) Type of the relationship : </td>
+                    <td>
+                        <select name="relationship" id="relationship">
+                            <option value="default">select</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        <input type="radio" name="age_dob" id="age"><label for="age">(E) Age [on January 1 of the current calender]</label>
+
+                        <input type="text" placeholder="enter age.">
+
+                        <select name="year" id="age_year">
+                            <option value="default">Year</option>
+                        </select>
+                        <select name="month" id="age_month">
+                            <option value="default">Month</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        OR
+                    </td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        <input type="radio" name="age_dob" id="dob"><label for="age">(F) Date of birth (in the form of day/ month/ year)</label>
+                        <input type="date" name="enter_date" id="date_of_birth">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                    (if known)
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">(G) Applicant's gender</td>
+                    <td>
+                        <select name="Gender" id="gender">
+                            <option value="default">select</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="div_pink">
+            <h1 style="padding: 10px">(H) Current address, whose applicant is nominally resident</h1>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">House no : </td>
+                    <td><input type="text" placeholder="(In English)"></td>
+                    <td><input type="text" placeholder="(In Regional)"></td>
+                    <td><button class="input_button" name="Keyboard_icon"><i class="fa fa-keyboard-o"></i></button></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Street / area / location : </td>
+                    <td><input type="text" placeholder="(In English)"></td>
+                    <td><input type="text" placeholder="(In Regional)"></td>
+                    <td><button class="input_button" name="Keyboard_icon"><i class="fa fa-keyboard-o"></i></button></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">City / Village : </td>
+                    <td><input type="text" placeholder="(In English)"></td>
+                    <td><input type="text" placeholder="(In Regional)"></td>
+                    <td><button class="input_button" name="Keyboard_icon"><i class="fa fa-keyboard-o"></i></button></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Post Office : </td>
+                    <td><input type="text" placeholder="(In English)"></td>
+                    <td><input type="text" placeholder="(In Regional)"></td>
+                    <td><button class="input_button" name="Keyboard_icon"><i class="fa fa-keyboard-o"></i></button></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Pin Code : </td>
+                    <td><input type="text" placeholder="Enter PinCode."></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">State / Union Territory : </td>
+                    <td>
+                        <select name="Gender" id="State / Union Territory">
+                            <option value="default">select</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">District : </td>
+                    <td>
+                        <select name="Gender" id="District">
+                            <option value="default">select</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr class="horizontal_line">
+        <div style="padding-top: 10px; padding-bottom: 10px;">
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        Family / Neighbour Epic No :
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter number.">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr class="horizontal_line">
+        <div class="div_pink">
+            <h1 style="padding: 10px">Optional specialties</h1>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">(T) Disability (if any)</td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        <input type="checkbox" name="disabilities" id="DB1">Visual impairment
+                    </td>
+                    <td>
+                        <input type="checkbox" name="disabilities" id="DB2">Speech and hearing impairment
+                    </td>
+                    <td>
+                        <input type="checkbox" name="disabilities" id="DB3">Motion disabling 
+                    </td>
+                    <td>
+                        <input type="checkbox" name="disabilities" id="DB4">others
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Specify others here">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <td class="texts" style="padding-left: 50px
+                ;">(Th) Email ID (optional) : </td>
+                <td>
+                    <input type="text" placeholder="Specify others here">
+                </td>
+            </table>
+            <table>
+                <td class="texts" style="padding-left: 50px
+                ;">(D) mobile number (optional)   +91</td>
+                <td>
+                    <input type="text" placeholder="12345*****">
+                </td>
+            </table>
+        </div>
+        <div class="div_pink">
+            <h1 style="padding: 10px">Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a class="link" href="#">List of Supported documents</a></h1>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Your photo</td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        <input type="file" placeholder="No files choosen">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Age proof</td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        <input type="file" placeholder="No files choosen">
+                    </td>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Document type : </td>
+                    <td>
+                        <select name="Document type" id="Document_type1">
+                            <option value="default">select</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Adress proof</td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        <input type="file" placeholder="No files choosen">
+                    </td>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Document type : </td>
+                    <td>
+                        <select name="Document type" id="Document_type2">
+                            <option value="default">select</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>            
+        </div>
+        <div class="div_pink">
+            <h1 style="padding: 10px">Declaration</h1>
+        </div>        
+        <div>
+            <p class="texts">I declare I declare that according to my best knowledge and belief</p>
+            <p class="texts">I am a citizen of India and of my birth;</p>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">City / Village: </td>
+                    <td>
+                        <input type="text" placeholder="Enter City Name.">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Select state : </td>
+                    <td>
+                        <select name="State" id="state">
+                            <option value="default">select</option>
+                        </select>
+                    </td>
+                    <td class="texts" style="padding-left: 50px
+                    ;">District : </td>
+                    <td>
+                        <select name="State" id="district">
+                            <option value="default">select</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Date : </td>
+                    <td>
+                        <input type="date" name="Date" id="decleration_date">
+                    </td>
+                </tr>
+            </table>
+
+            <p class="texts"> I am a nominally resident in the address given in the above (date, month, year) above;
+            </p>
+            <p class="texts">I have not applied to include my name in the electoral roll for any other constituency;
+            </p>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        <input type="radio" name="choice">My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        OR
+                    </td>
+                </tr>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">
+                        <input type="radio" name="choice">My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned below, and if so, then I request that it be removed from that electoral roll. Go.
+                    </td>
+                </tr>
+            </table>
+            <hr class="horizontal_line">
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Location : </td>
+                    <td>
+                        <input type="text" placeholder="Enter the location here.">
+                    </td>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Date : </td>
+                    <td>
+                        <input type="date" name="Date" id="dec_date">
+                    </td>
+                </tr>
+            </table>
+            <p class="texts">I am afraid that the statement or declaration, which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's Representation Act, 1950 (43 of 1950 ) Is punishable under section 31</p>
+            <table>
+                <tr>
+                    <td class="texts" style="padding-left: 50px
+                    ;">Captcha :</td>
+                    <td>
+                        <img src="https://www.scienceabc.com/wp-content/uploads/ext-www.scienceabc.com/wp-content/uploads/2016/07/Captcha-ex.jpg-.jpg" alt="Img of Captcha" width="100px" height="50px">
+                    </td>
+                    <td><i class="fa fa-refresh fa-spin" style="font-size:24px"></i></td>
+                    <td>
+                        <input type="text" placeholder="Enter the captcha here.">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="text-align: center;">
+            <button class="last_btn"><a href="#">Reset</a></button>
+            <button class="last_btn"><a href="#">Submit</a></button>
+        </div>
+    </section>
+    <footer>
+        <nav style="padding: 5px;">
+            <p class="nav_font1">Copyright © 2021 Star Consultants and Technology Pvt. Ltd.</p>
+        </nav>
+    </footer>
+</body>
+</html>
